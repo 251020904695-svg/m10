@@ -1,0 +1,75 @@
+/* --- Các code cũ của bạn --- */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #6b0000;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+/* Lưu ý: Nếu muốn áp dụng Yêu cầu 5, bạn cần chắc chắn có thẻ img nằm trong thẻ nav nhé */
+img {
+    width: 300px;
+    height: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #add8e6;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* Yêu cầu 3: Nhận xét (comment) kiểu dáng hiện có cho phần tử li */
+/* li {
+    background-color: #6b0000;
+} 
+*/
+
+/* --- CODE MỚI THÊM VÀO THEO HƯỚNG DẪN --- */
+
+/* Yêu cầu 4: Thay đổi phần tử nav để sử dụng khối nội tuyến (inline-block) và có chiều rộng 80% */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Yêu cầu 5: Sử dụng bộ chọn hậu duệ để chỉ tạo kiểu cho hình ảnh trong điều hướng có chiều rộng khoảng 10% */
+nav img {
+    width: 10%;
+}
+
+/* Yêu cầu 6 & 8: Tạo kiểu cho lớp lưới (.grid) sử dụng lưới 2 cột, tinh chỉnh justify-content, align-items và row-gap */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly; /* Hoặc space-between / center tùy bạn chọn */
+    align-items: start;            
+    row-gap: 30px;
+}
+
+/* Yêu cầu 7: Sử dụng bộ chọn hậu duệ cho hình ảnh trong lớp lưới (.grid img) có chiều rộng 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Yêu cầu 9: Tạo kiểu cho lớp flex (.flex), chơi với flex-wrap và justify-content */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
